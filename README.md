@@ -1,2 +1,2 @@
 # 小程序demo
-![](demo.jpg)
+![](demo.png)
