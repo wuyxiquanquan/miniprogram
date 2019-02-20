@@ -1,0 +1,47 @@
+<!--pages/page/page7.wxml-->
+<!-- phone number part -->
+<view id='global'>
+  <view id='number'>
+    <view id='number_body1'>
+      <view id='number_body1_1'>
+      {{phone_number}}
+      </view>
+      <image src='../../images/s.png' class='images' ></image>
+    </view>
+    <view id='footnote'>Linked ID number</view>
+    <!--line-->
+    <view id='line1'></view>
+  </view>
+
+  <!-- Recharge part -->
+  <view id='recharge_out'>
+    <view id='recharge_text'>充悬赏金</view>
+    <view class='recharge_row'>
+      <view class='recharge_block'>10¥</view>
+      <view class='recharge_block'>20¥</view>
+      <view class='recharge_block'>30¥</view>
+    </view>
+    <view class='recharge_row'>
+      <view class='recharge_block'>50¥</view>
+      <view class='recharge_block'>100¥</view>
+      <view class='recharge_block'>200¥</view>
+    </view>
+    <view id='recharge_text'>更多充值</view>
+    <view class='recharge_row'>
+      <view class='recharge_block'>Q币</view>
+      <view class='recharge_block'>会员服务</view>
+      <view class='recharge_block'>特殊服务</view>
+    </view>
+  </view>
+
+  <!-- bottom part -->
+  <view id='bottom'>
+  </view>
+</view>
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+/* pages/page/page7.wxss */
+#global{
+  width: 100%;
+  height: 100%;
+}
+#number{
+  display: flex;
+  flex-direction: column;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+  margin-right: 32rpx;
+  margin-bottom: 32rpx;
+}
+
+#number_body1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#number_body1_1{
+  font-size: 55rpx;
+  /* border: 2rpx solid red;
+  border-radius: 20rpx;
+  padding: 20rpx; */
+}
+
+#footnote{
+  color: #95C8DD;
+  font-size: 30rpx;
+}
+
+#recharge_out{
+  margin:0 auto;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+#recharge_text{
+  color: #D1D1D1;
+  font-size: 32rpx;
+}
+
+#bottom{
+  position: fixed;
+  width: 100%;
+  height: 45%;
+  bottom: 0px;
+  background-color: #1111110c;
+  margin:0 auto;
+  margin-top: 32rpx;
+
+}
+
+#line1{
+  width: 100%;
+  height: 2rpx;
+  background-color: #D1D1D1;
+  margin:0 auto;
+  margin-top: 32rpx;
+}
+
+.images{
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 12rpx;
+}
+
+.recharge_row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 32rpx;
+  margin-bottom: 32rpx;
+  justify-content: space-around;
+}
+
+.recharge_block{
+  font-size: 40rpx;
+  color: #95C8DD;
+  border: 2rpx solid;
+  border-radius: 20rpx;
+  padding: 20rpx; 
+}
